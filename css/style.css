@@ -1,0 +1,86 @@
+.wrapper {
+    width: 1440px;
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    background-color: #4A2B33;
+}
+
+nav {
+    width: 95%;
+    height: 75px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #D27487;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.main_img {
+    width: 90%;
+    margin: 40px auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.about{
+    text-align: center;
+    padding: 220px 270px;
+  }
+  
+  .about p {
+    font-size: 24px;
+  }
+
+  .details{
+    width: 100% ;
+    height: 480px ;
+    background-color: #AA9E54 ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 50px;
+  }
+
+  .grid-img{
+     grid-row: 1/3;
+     grid-column: 2;
+  }
+  
+  .award{
+    background-color: #4A2B33;
+    color: #D27487;
+    padding: 120px 200px;
+    text-align: center;
+    
+
+  }
